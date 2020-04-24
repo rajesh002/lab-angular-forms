@@ -47,9 +47,7 @@ export class AppComponent implements OnInit {
       return;
     }
     this.isValidFormSubmitted = true;
-    alert(
-      'Form Submitted succesfully!!!\n Check the values in browser console.'
-    );
+    alert('Form Submitted succesfully');
     this.myForm.reset();
   }
 }
